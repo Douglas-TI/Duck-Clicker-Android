@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DuckClicker">
-        <activity android:name="br.com.douglassilverio.duckclicker.jogar.jogo.Jogo"></activity>
-        <activity android:name="br.com.douglassilverio.duckclicker.jogar.Dificuldade" />
-        <activity android:name="br.com.douglassilverio.duckclicker.MainActivity">
+        <activity android:name="br.com.douglassilverio.duckclicker.view.Jogo"></activity>
+        <activity android:name="br.com.douglassilverio.duckclicker.view.Dificuldade" />
+        <activity android:name="br.com.douglassilverio.duckclicker.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

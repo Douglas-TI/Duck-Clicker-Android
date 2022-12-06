@@ -1,4 +1,4 @@
-package br.com.douglassilverio.duckclicker.jogar;
+package br.com.douglassilverio.duckclicker.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 
 import br.com.douglassilverio.duckclicker.R;
-import br.com.douglassilverio.duckclicker.jogar.jogo.Jogo;
 
 public class Dificuldade extends AppCompatActivity {
 
@@ -15,19 +14,17 @@ public class Dificuldade extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dificuldade);
-
     }
 
     public void facil(View view){
-        Jogo.dificuldade = "facil";
         Intent myIntent = new Intent(this, Jogo.class);
+        myIntent.putExtra("DIFFICULTY", "EASY");
         startActivity(myIntent);
-
     }
 
     public void dificil(View view){
-        Jogo.dificuldade = "dificil";
         Intent myIntent = new Intent(this, Jogo.class);
+        myIntent.putExtra("DIFFICULTY", "HARD");
         startActivity(myIntent);
     }
 }

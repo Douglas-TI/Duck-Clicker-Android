@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fundo_menu"
-    tools:context=".jogar.jogo.Jogo">
+    tools:context=".view.Jogo">
 
 
     <Button
@@ -347,7 +347,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
-        android:onClick="iniciar"
+        android:onClick="start"
         android:text="INICIAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
