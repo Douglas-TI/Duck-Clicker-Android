@@ -15,7 +15,7 @@ import java.util.TimerTask;
 
 import br.com.douglassilverio.duckclicker.R;
 
-public class Jogo extends AppCompatActivity {
+public class GameActivity extends AppCompatActivity {
 
     private TextView placar;
     private View iniciar;
