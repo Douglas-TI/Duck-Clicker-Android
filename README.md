@@ -1,2 +1,2 @@
 # duck-clicker
-Jogo para Android feito com Java.
+App para Android nativo feito com Java.
